@@ -5,13 +5,16 @@
   
 
   
-  <title>Hexo</title>
+  <title>八数码 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
+  <meta name="description" content="原题链接：八数码 Eight解题思路 A*：​    先进行可解性判定，把除空格之外的所有数字排成一个序列，求出该序列的逆序对数。如果初态和终态的逆序对数奇偶性相同，那么这两个状态互相可达，否则一定不可达。 ​    若问题有解，我们就采用 A * 算法搜索一种移动步数最少的方案。经过观察可以发现，每次移动只能把一个数字与空格交换位置，这样至多把一个数字向它在目标状态中的位置移近一步。即使每一步移">
+<meta property="og:type" content="article">
+<meta property="og:title" content="八数码">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;16&#x2F;%E5%85%AB%E6%95%B0%E7%A0%81&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="原题链接：八数码 Eight解题思路 A*：​    先进行可解性判定，把除空格之外的所有数字排成一个序列，求出该序列的逆序对数。如果初态和终态的逆序对数奇偶性相同，那么这两个状态互相可达，否则一定不可达。 ​    若问题有解，我们就采用 A * 算法搜索一种移动步数最少的方案。经过观察可以发现，每次移动只能把一个数字与空格交换位置，这样至多把一个数字向它在目标状态中的位置移近一步。即使每一步移">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-11-15T08:48:19.118Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -59,9 +62,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-八数码" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-八数码" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/11/16/%E5%85%AB%E6%95%B0%E7%A0%81/" class="article-date">
   <time datetime="2019-11-16T08:55:14.263Z" itemprop="datePublished">2019-11-16</time>
@@ -74,8 +75,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/11/16/%E5%85%AB%E6%95%B0%E7%A0%81/">八数码</a>
+    <h1 class="article-title" itemprop="name">
+      八数码
     </h1>
   
 
@@ -102,60 +103,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/11/16/hello-world/" class="article-date">
-  <time datetime="2019-11-16T08:37:07.357Z" itemprop="datePublished">2019-11-16</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/11/16/hello-world/">Hello World</a>
-    </h1>
+    <a href="/2019/11/16/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/16/hello-world/" data-id="ck31c6qhb0000dcu91jhx06ee" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-
 
 </section>
         
