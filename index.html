@@ -1,172 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="alternate" href="/atom.xml" title="zoom1109's Blog" type="application/atom+xml">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '7.5.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="zoom1109&#39;s Blog">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
+<meta property="og:site_name" content="zoom1109&#39;s Blog">
+<meta property="og:locale" content="en">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://yoursite.com/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: true,
+    isPost: false,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>zoom1109's Blog</title>
   
-  
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>
-    
-    zoom1109&#39;s Blog</title>
-  
-    <link rel="shortcut icon" href="/favicon.ico">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  
-    <link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
-  
-  <script src="/js/pace.min.js"></script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
 </head>
 
-<body>
-<main class="content">
-  <section class="jumbotron">
-  <div class="video">
-    
-      <div class="video-frame">
-        <img src="/images/ocean/overlay-hero.png" alt="Decorative image frame">
-      </div>
-    
-    <div class="video-media">
-      <video playsinline="" autoplay="" loop="" muted="" data-autoplay=""
-             poster="/images/ocean/ocean.png" x5-video-player-type="h5">
-        <source src="/images/ocean/ocean.mp4" type="video/mp4">
-        <source src="/images/ocean/ocean.ogv" type="video/ogg">
-        <source src="/images/ocean/ocean.webm" type="video/webm">
-        <p>Your user agent does not support the HTML5 Video element.</p>
-      </video>
-      <div class="video-overlay"></div>
-    </div>
-    <div class="video-inner text-center text-white">
-      <h1><a href="/">zoom1109&#39;s Blog</a></h1>
-      <p></p>
-      <div><img src="/images/hexo-inverted.svg" class="brand" alt="zoom1109&#39;s Blog"></div>
-    </div>
-    <div class="video-learn-more">
-      <a class="anchor" href="#landingpage"><i class="fe fe-mouse"></i></a>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">zoom1109's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
     </div>
   </div>
-</section>
 
-<div id="landingpage">
-  <section class="outer">
-  <article class="articles">
-    
-    <h1 class="page-type-title"></h1>
-
-    
-      
-        
-
-<article id="post-八数码" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
-  
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h2 itemprop="name">
-      <a class="article-title" href="/2019/11/16/%E5%85%AB%E6%95%B0%E7%A0%81/">八数码</a>
-    </h2>
-  
-  
-
-
-
-
-      </header>
-    
-
-    
-      <div class="article-meta">
-        <a href="/2019/11/16/%E5%85%AB%E6%95%B0%E7%A0%81/" class="article-date">
-  <time datetime="2019-11-16T08:55:14.263Z" itemprop="datePublished">2019-11-16</time>
-</a>
-        
-      </div>
-    
-
-    
-
-    <div class="article-entry" itemprop="articleBody">
-      
-
-
-      
-
-      
-        <h4 id="原题链接八数码-eight">原题链接：<a href="http://poj.org/problem?id=1077" target="_blank" rel="noopener">八数码 Eight</a></h4>
-<h4 id="解题思路-a">解题思路 A*：</h4>
-<p>​ 先进行可解性判定，把除空格之外的所有数字排成一个序列，求出该序列的逆序对数。如果初态和终态的逆序对数奇偶性相同，那么这两个状态互相可达，否则一定不可达。</p>
-<p>​ 若问题有解，我们就采用 A * 算法搜索一种移动步数最少的方案。经过观察可以发现，每次移动只能把一个数字与空格交换位置，这样至多把一个数字向它在目标状态中的位置移近一步。即使每一步移动都是有意义的，从任何一个状态到目标状态的移动步数也不可能小于所有数字当前位置与目标位置的曼哈顿距离之和。</p>
-<p>​ 于是，对于任意的状态state，我们可以把估计函数设定为：所有数字在state中的位置与目标状态End中位置的曼哈顿距离之和，即：</p>
-<p>​ <span class="math inline">\(f(state) = \sum_{num=1}^9 {|statex_{num} - endx_{num}| + |statey_{num} - endy_{num}|}\)</span></p>
-<p>​ 其中， <span class="math inline">\(statex_{num}\)</span> 表示在状态state下数字num的行号，<span class="math inline">\(statey_{num}\)</span> 为列号。</p>
-<p>​ 我们不断从堆中取出”从初态到当前状态state已经移动的步数 + $f(state) $“ 最小进行扩展，当终态第一次被从堆中取出时，就得到了答案。</p>
-<p>​ 在 A * 算法中，为了保证效率，每个状态只需要在第一次被取出时扩展一次。本题的状态是一个八数码，并非一个简单的节点编号，所以需要配合Hush来记录距离。</p>
-<h4 id="代码如下">代码如下：</h4>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;map&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> x first</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> y second</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">typedef</span> pair&lt;<span class="keyword">int</span>, <span class="built_in">string</span>&gt; PIS;</span><br><span class="line"><span class="built_in">string</span> End = <span class="string">"12345678x"</span>;</span><br><span class="line"><span class="keyword">char</span> op[<span class="number">4</span>] = &#123;<span class="string">'u'</span>, <span class="string">'r'</span>, <span class="string">'d'</span>, <span class="string">'l'</span>&#125;;</span><br><span class="line"><span class="keyword">int</span> dir[<span class="number">4</span>][<span class="number">2</span>] = &#123;&#123;<span class="number">-1</span>, <span class="number">0</span>&#125;, &#123;<span class="number">0</span>, <span class="number">1</span>&#125;, &#123;<span class="number">1</span>, <span class="number">0</span>&#125;, &#123;<span class="number">0</span>, <span class="number">-1</span>&#125;&#125;;</span><br><span class="line"><span class="built_in">map</span>&lt;<span class="built_in">string</span>, <span class="keyword">int</span>&gt; dis;</span><br><span class="line"><span class="built_in">map</span>&lt;<span class="built_in">string</span>, pair&lt;<span class="keyword">char</span>, <span class="built_in">string</span>&gt; &gt; pre;</span><br><span class="line">priority_queue&lt;PIS, <span class="built_in">vector</span>&lt;PIS&gt;, greater&lt;PIS&gt; &gt; heap;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">f</span><span class="params">(<span class="built_in">string</span> state)</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> res = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; state.size(); i++)&#123;</span><br><span class="line">		<span class="keyword">if</span>(state[i] != <span class="string">'x'</span>)&#123;</span><br><span class="line">			<span class="keyword">int</span> t = state[i] - <span class="string">'1'</span>;</span><br><span class="line">			res += <span class="built_in">abs</span>(i/<span class="number">3</span> - t/<span class="number">3</span>) + <span class="built_in">abs</span>(i%<span class="number">3</span> - t%<span class="number">3</span>);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="built_in">string</span> <span class="title">bfs</span><span class="params">(<span class="built_in">string</span> start)</span></span>&#123;</span><br><span class="line">	heap.push(&#123;f(start), start&#125;);</span><br><span class="line">	dis[start] = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">while</span>(heap.size())&#123;</span><br><span class="line">		PIS  t = heap.top(); heap.pop();</span><br><span class="line">		<span class="built_in">string</span> state = t.y;</span><br><span class="line"></span><br><span class="line">		<span class="keyword">if</span>(state == End)	<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">int</span> x, y;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; state.size(); i++)&#123;</span><br><span class="line">			<span class="keyword">if</span>(state[i] == <span class="string">'x'</span>)&#123;</span><br><span class="line">                x = i/<span class="number">3</span>, y = i%<span class="number">3</span>;</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			&#125;</span><br><span class="line"></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">string</span> backup = state;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">4</span>; i++)&#123;</span><br><span class="line">			<span class="keyword">int</span> tx = x + dir[i][<span class="number">0</span>], ty = y + dir[i][<span class="number">1</span>];</span><br><span class="line">			<span class="keyword">if</span>(tx &lt; <span class="number">0</span> || tx &gt;= <span class="number">3</span> || ty &lt; <span class="number">0</span> || ty &gt;= <span class="number">3</span>)	<span class="keyword">continue</span>;</span><br><span class="line">			state = backup;</span><br><span class="line">			swap(state[x*<span class="number">3</span> + y], state[tx*<span class="number">3</span> + ty]);</span><br><span class="line">			<span class="keyword">if</span>(dis.count(state) == <span class="number">0</span> || dis[state] &gt; dis[backup] + <span class="number">1</span>)&#123;</span><br><span class="line">				dis[state] = dis[backup] + <span class="number">1</span>;</span><br><span class="line">				pre[state] = &#123;op[i], backup&#125;;</span><br><span class="line">				heap.push(&#123;f(state) + dis[state], state&#125;);</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">string</span> ans;</span><br><span class="line">	<span class="keyword">while</span>(start != End)&#123;</span><br><span class="line">		ans += pre[End].x;</span><br><span class="line">		End = pre[End].y;</span><br><span class="line">	&#125;</span><br><span class="line">	reverse(ans.begin(), ans.end());</span><br><span class="line">	<span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">char</span> c;</span><br><span class="line">	<span class="keyword">int</span> cnt = <span class="number">0</span>;</span><br><span class="line">	<span class="built_in">string</span> start, sec;</span><br><span class="line">	<span class="keyword">while</span>(<span class="built_in">cin</span> &gt;&gt; c)&#123;</span><br><span class="line">		start += c;</span><br><span class="line">		<span class="keyword">if</span>(c != <span class="string">'x'</span>)	sec += c;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 可解性判断   用求逆序对来判断奇偶性</span></span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i= <span class="number">0</span>; i &lt; <span class="number">8</span>; i++)&#123;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> j = i + <span class="number">1</span>; j &lt; <span class="number">8</span>; j++)&#123;</span><br><span class="line">			<span class="keyword">if</span>(sec[i] &gt; sec[j])	cnt++;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span>(cnt&amp;<span class="number">1</span>)	<span class="built_in">cout</span> &lt;&lt; <span class="string">"unsolvable"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="keyword">else</span> <span class="built_in">cout</span> &lt;&lt; bfs(start) &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-      
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/16/%E5%85%AB%E6%95%B0%E7%A0%81/" data-id="ck32evdl20001mou9a9dy6hof"
-         class="article-share-link">Share</a>
-      
-    </footer>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="Searching..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
 
   </div>
+</div>
+    </header>
 
-  
-
-  
-
-</article>
-
-
-
-      
-        
-
-<article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
-  
-  <div class="article-inner">
     
-      <header class="article-header">
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
         
   
-    <h2 itemprop="name">
-      <a class="article-title" href="/2019/11/16/hello-world/">Hello World</a>
-    </h2>
   
-  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/16/hello-world/">
 
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="zoom1109">
+      <meta itemprop="description" content="">
+    </span>
 
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zoom1109's Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/11/16/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+        </h1>
 
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
 
+              <time title="Created: 2019-11-16 16:37:07 / Modified: 16:46:32" itemprop="dateCreated datePublished" datetime="2019-11-16T16:37:07+08:00">2019-11-16</time>
+            </span>
+
+          
+
+        </div>
       </header>
-    
 
     
-      <div class="article-meta">
-        <a href="/2019/11/16/hello-world/" class="article-date">
-  <time datetime="2019-11-16T08:37:07.357Z" itemprop="datePublished">2019-11-16</time>
-</a>
-        
-      </div>
     
-
     
-
-    <div class="article-entry" itemprop="articleBody">
-      
-
+    <div class="post-body" itemprop="articleBody">
 
       
-
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+          <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="quick-start">Quick Start</h2>
 <h3 id="create-a-new-post">Create a new post</h3>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
@@ -183,120 +247,286 @@
 
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/16/hello-world/" data-id="ck32evdku0000mou9cibh80rp"
-         class="article-share-link">Share</a>
-      
-    </footer>
 
-  </div>
-
-  
-
-  
-
-</article>
-
-
-
-      
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
   </article>
   
+  
+  
 
+        
   
-</section>
-</div>
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/16/%E5%85%AB%E6%95%B0%E7%A0%81/">
 
-  <footer class="footer">
-  <div class="outer">
-    <div class="float-right">
-      <ul class="list-inline">
-  
-    <li><i class="fe fe-smile-alt"></i> <span id="busuanzi_value_site_uv"></span></li>
-  
-    <li><i class="fe fe-bookmark"></i> <span id="busuanzi_value_page_pv"></span></li>
-  
-</ul>
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="zoom1109">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zoom1109's Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2018/07/16/%E5%85%AB%E6%95%B0%E7%A0%81/" class="post-title-link" itemprop="url">特征提取——局部特征</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2018-07-16 09:39:40" itemprop="dateCreated datePublished" datetime="2018-07-16T09:39:40+08:00">2018-07-16</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2019-11-17 11:51:20" itemprop="dateModified" datetime="2019-11-17T11:51:20+08:00">2019-11-17</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h4 id="原题链接八数码-eight">原题链接：<a href="http://poj.org/problem?id=1077" target="_blank" rel="noopener">八数码 Eight</a></h4>
+<h4 id="解题思路-a">解题思路 A*：</h4>
+<p>​ 先进行可解性判定，把除空格之外的所有数字排成一个序列，求出该序列的逆序对数。如果初态和终态的逆序对数奇偶性相同，那么这两个状态互相可达，否则一定不可达。</p>
+<p>​ 若问题有解，我们就采用 A * 算法搜索一种移动步数最少的方案。经过观察可以发现，每次移动只能把一个数字与空格交换位置，这样至多把一个数字向它在目标状态中的位置移近一步。即使每一步移动都是有意义的，从任何一个状态到目标状态的移动步数也不可能小于所有数字当前位置与目标位置的曼哈顿距离之和。</p>
+<p>​ 于是，对于任意的状态state，我们可以把估计函数设定为：所有数字在state中的位置与目标状态End中位置的曼哈顿距离之和，即：</p>
+<p>​ <span class="math inline">\(f(state) = \sum_{num=1}^9 {|statex_{num} - endx_{num}| + |statey_{num} - endy_{num}|}\)</span></p>
+<p>​ 其中， <span class="math inline">\(statex_{num}\)</span> 表示在状态state下数字num的行号，<span class="math inline">\(statey_{num}\)</span> 为列号。</p>
+<p>​ 我们不断从堆中取出”从初态到当前状态state已经移动的步数 + $f(state) $“ 最小进行扩展，当终态第一次被从堆中取出时，就得到了答案。</p>
+<p>​ 在 A * 算法中，为了保证效率，每个状态只需要在第一次被取出时扩展一次。本题的状态是一个八数码，并非一个简单的节点编号，所以需要配合Hush来记录距离。</p>
+<h4 id="代码如下">代码如下：</h4>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;map&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> x first</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> y second</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">typedef</span> pair&lt;<span class="keyword">int</span>, <span class="built_in">string</span>&gt; PIS;</span><br><span class="line"><span class="built_in">string</span> End = <span class="string">"12345678x"</span>;</span><br><span class="line"><span class="keyword">char</span> op[<span class="number">4</span>] = &#123;<span class="string">'u'</span>, <span class="string">'r'</span>, <span class="string">'d'</span>, <span class="string">'l'</span>&#125;;</span><br><span class="line"><span class="keyword">int</span> dir[<span class="number">4</span>][<span class="number">2</span>] = &#123;&#123;<span class="number">-1</span>, <span class="number">0</span>&#125;, &#123;<span class="number">0</span>, <span class="number">1</span>&#125;, &#123;<span class="number">1</span>, <span class="number">0</span>&#125;, &#123;<span class="number">0</span>, <span class="number">-1</span>&#125;&#125;;</span><br><span class="line"><span class="built_in">map</span>&lt;<span class="built_in">string</span>, <span class="keyword">int</span>&gt; dis;</span><br><span class="line"><span class="built_in">map</span>&lt;<span class="built_in">string</span>, pair&lt;<span class="keyword">char</span>, <span class="built_in">string</span>&gt; &gt; pre;</span><br><span class="line">priority_queue&lt;PIS, <span class="built_in">vector</span>&lt;PIS&gt;, greater&lt;PIS&gt; &gt; heap;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">f</span><span class="params">(<span class="built_in">string</span> state)</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> res = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; state.size(); i++)&#123;</span><br><span class="line">		<span class="keyword">if</span>(state[i] != <span class="string">'x'</span>)&#123;</span><br><span class="line">			<span class="keyword">int</span> t = state[i] - <span class="string">'1'</span>;</span><br><span class="line">			res += <span class="built_in">abs</span>(i/<span class="number">3</span> - t/<span class="number">3</span>) + <span class="built_in">abs</span>(i%<span class="number">3</span> - t%<span class="number">3</span>);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="built_in">string</span> <span class="title">bfs</span><span class="params">(<span class="built_in">string</span> start)</span></span>&#123;</span><br><span class="line">	heap.push(&#123;f(start), start&#125;);</span><br><span class="line">	dis[start] = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">while</span>(heap.size())&#123;</span><br><span class="line">		PIS  t = heap.top(); heap.pop();</span><br><span class="line">		<span class="built_in">string</span> state = t.y;</span><br><span class="line"></span><br><span class="line">		<span class="keyword">if</span>(state == End)	<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">int</span> x, y;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; state.size(); i++)&#123;</span><br><span class="line">			<span class="keyword">if</span>(state[i] == <span class="string">'x'</span>)&#123;</span><br><span class="line">                x = i/<span class="number">3</span>, y = i%<span class="number">3</span>;</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			&#125;</span><br><span class="line"></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">string</span> backup = state;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">4</span>; i++)&#123;</span><br><span class="line">			<span class="keyword">int</span> tx = x + dir[i][<span class="number">0</span>], ty = y + dir[i][<span class="number">1</span>];</span><br><span class="line">			<span class="keyword">if</span>(tx &lt; <span class="number">0</span> || tx &gt;= <span class="number">3</span> || ty &lt; <span class="number">0</span> || ty &gt;= <span class="number">3</span>)	<span class="keyword">continue</span>;</span><br><span class="line">			state = backup;</span><br><span class="line">			swap(state[x*<span class="number">3</span> + y], state[tx*<span class="number">3</span> + ty]);</span><br><span class="line">			<span class="keyword">if</span>(dis.count(state) == <span class="number">0</span> || dis[state] &gt; dis[backup] + <span class="number">1</span>)&#123;</span><br><span class="line">				dis[state] = dis[backup] + <span class="number">1</span>;</span><br><span class="line">				pre[state] = &#123;op[i], backup&#125;;</span><br><span class="line">				heap.push(&#123;f(state) + dis[state], state&#125;);</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">string</span> ans;</span><br><span class="line">	<span class="keyword">while</span>(start != End)&#123;</span><br><span class="line">		ans += pre[End].x;</span><br><span class="line">		End = pre[End].y;</span><br><span class="line">	&#125;</span><br><span class="line">	reverse(ans.begin(), ans.end());</span><br><span class="line">	<span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">char</span> c;</span><br><span class="line">	<span class="keyword">int</span> cnt = <span class="number">0</span>;</span><br><span class="line">	<span class="built_in">string</span> start, sec;</span><br><span class="line">	<span class="keyword">while</span>(<span class="built_in">cin</span> &gt;&gt; c)&#123;</span><br><span class="line">		start += c;</span><br><span class="line">		<span class="keyword">if</span>(c != <span class="string">'x'</span>)	sec += c;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 可解性判断   用求逆序对来判断奇偶性</span></span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i= <span class="number">0</span>; i &lt; <span class="number">8</span>; i++)&#123;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> j = i + <span class="number">1</span>; j &lt; <span class="number">8</span>; j++)&#123;</span><br><span class="line">			<span class="keyword">if</span>(sec[i] &gt; sec[j])	cnt++;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span>(cnt&amp;<span class="number">1</span>)	<span class="built_in">cout</span> &lt;&lt; <span class="string">"unsolvable"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="keyword">else</span> <span class="built_in">cout</span> &lt;&lt; bfs(start) &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+      
     </div>
-    <ul class="list-inline">
-      <li>&copy; 2019 zoom1109&#39;s Blog</li>
-      <li>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></li>
-      <li>Theme  <a href="https://github.com/zhwangart/hexo-theme-ocean" target="_blank" rel="noopener">Ocean</a></li>
-    </ul>
-  </div>
-</footer>
 
-</main>
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+  </div>
+
+  
+
+
+
+          </div>
+          
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
 
   <aside class="sidebar">
-    
-    <button class="navbar-toggle"></button>
-<nav class="navbar">
-  
-    <div class="logo">
-      <a href="/"><img src="/images/hexo.svg" alt="zoom1109&#39;s Blog"></a>
-    </div>
-  
-  <ul class="nav nav-main">
-    
-      <li class="nav-item">
-        <a class="nav-item-link" href="/">Home</a>
-      </li>
-    
-      <li class="nav-item">
-        <a class="nav-item-link" href="/archives">Archives</a>
-      </li>
-    
-      <li class="nav-item">
-        <a class="nav-item-link" href="/gallery">Gallery</a>
-      </li>
-    
-      <li class="nav-item">
-        <a class="nav-item-link" href="/about">About</a>
-      </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link nav-item-search" title="Search">
-        <i class="fe fe-search"></i>
-        Search
-      </a>
-    </li>
-  </ul>
-</nav>
-<nav class="navbar navbar-bottom">
-  <ul class="nav">
-    <li class="nav-item">
-      <div class="totop" id="totop">
-  <i class="fe fe-rocket"></i>
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">zoom1109</p>
+  <div class="site-description" itemprop="description"></div>
 </div>
-    </li>
-    <li class="nav-item">
-      
-        <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
-          <i class="fe fe-feed"></i>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-name">posts</span>
         </a>
-      
-    </li>
-  </ul>
-</nav>
-<div class="search-form-wrap">
-  <div class="local-search local-search-plugin">
-  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
-  <div id="local-search-result" class="local-search-result"></div>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
 </div>
-</div>
+  <div class="feed-link motion-element">
+    <a href="/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+
+
+
+      </div>
+
+    </div>
   </aside>
-  <script src="/js/jquery-2.0.3.min.js"></script>
-<script src="/js/jquery.justifiedGallery.min.js"></script>
-<script src="/js/lazyload.min.js"></script>
-<script src="/js/busuanzi-2.3.pure.min.js"></script>
-
-  <script src="/fancybox/jquery.fancybox.min.js"></script>
+  <div id="sidebar-dimmer"></div>
 
 
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">zoom1109</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.0.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">Theme – <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.5.0
+  </div>
+
+        
 
 
-<script src="/js/ocean.js"></script>
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+<script src="/js/schemes/muse.js"></script>
+<script src="/js/next-boot.js"></script>
+
+
+
+  
+
+
+
+
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+      
+<script type="text/x-mathjax-config">
+
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+      equationNumbers: {
+        autoNumber: 'AMS'
+      }
+    }
+  });
+
+  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
+    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
+      if (data.display) {
+        var next = data.script.nextSibling;
+        while (next && next.nodeName.toLowerCase() === '#text') {
+          next = next.nextSibling;
+        }
+        if (next && next.nodeName.toLowerCase() === 'br') {
+          next.parentNode.removeChild(next);
+        }
+      }
+    });
+  });
+
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for (i = 0; i < all.length; i += 1) {
+      element = document.getElementById(all[i].inputID + '-Frame').parentNode;
+      if (element.nodeName.toLowerCase() == 'li') {
+        element = element.parentNode;
+      }
+      element.classList.add('has-jax');
+    }
+  });
+</script>
+<script>
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML', () => {
+    MathJax.Hub.Typeset();
+  }, window.MathJax);
+</script>
+
+    
+
+  
 
 </body>
 </html>
