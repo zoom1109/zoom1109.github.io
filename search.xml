@@ -3,7 +3,7 @@
   <entry>
     <title>Flood Fill 模型</title>
     <url>/2019/11/17/Flood%20Fill%20%E6%A8%A1%E5%9E%8B/</url>
-    <content><![CDATA[<h2 id="flood-fill-模型">Flood Fill 模型</h2><a id="more"></a>
+    <content><![CDATA[<h2 id="flood-fill模型">Flood Fill模型</h2><a id="more"></a>
 <p>核心：求连通块</p>
 <p><strong>注意：对于队列的处理，定一个同一的标准：尾处理！！！</strong></p>
 <h4 id="原题链接lake-counting">原题链接：<a href="http://poj.org/problem?id=2386" target="_blank" rel="noopener">Lake Counting</a></h4>
