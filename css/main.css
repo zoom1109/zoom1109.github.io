@@ -1152,7 +1152,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #8bffb1;
+  background: #39ff8b;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1526,6 +1526,13 @@ pre .javascript .function {
 .post-sticky-flag {
   display: inline-block;
   transform: rotate(30deg);
+}
+.post {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 .post-button {
   margin-top: 40px;
